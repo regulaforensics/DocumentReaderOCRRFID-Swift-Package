@@ -3,13 +3,13 @@ import PackageDescription
 
 let package = Package(
     name: "OCRRFID",
-    platforms: [.iOS(.v11)],
+    platforms: [.iOS(.v13)],
     products: [
         .library(
             name: "OCRRFID",
             targets: ["OCRRFID"]),
     ],
     targets: [
-        .binaryTarget(name: "OCRRFID", url: "https://pods.regulaforensics.com/OCRRFID/7.7.12010/DocumentReaderCore_ocrandmrzrfid_7.7.12010.zip", checksum: "39701527c2a3ac6eb10d5ae900c2ac49fd6d2ea893ef5942f4afc7769c54c01f"),
+        .binaryTarget(name: "OCRRFID", url: "https://pods.regulaforensics.com/OCRRFID/8.1.12887/DocumentReaderCore_ocrandmrzrfid_8.1.12887.zip", checksum: "cee33794e8f8473a755ba69ebe511e48dc8313fed53bfccf420871337f43389f"),
     ]
 )
