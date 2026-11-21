@@ -7,12 +7,12 @@ let package = Package(
     products: [
         .library(
             name: "OCRRFID",
-            targets: ["OCRRFID"]),
+            targets: ["OCRRFIDStage"]),
     ],
     targets: [
         .binaryTarget(
-            name: "OCRRFID",
-            url: "https://pods.regulaforensics.com/OCRRFID/9.10.21772/DocumentReaderCore_ocrandmrzrfid_9.10.21772.zip",
-            checksum: "71183b6468858fcf7941f2537030d952885b0e5f040a0c4f7f6b30c2099c5de5"),
+            name: "OCRRFIDStage",
+            url: "https://pods.regulaforensics.com/Stage/OCRRFIDStage/9.11.21789/DocumentReaderCoreStage_ocrandmrzrfid_9.11.21789.zip",
+            checksum: "fb7d7482c287158346415199665b7bf0c50bcb35af723097038388d65da1afe3"),
     ]
 )
